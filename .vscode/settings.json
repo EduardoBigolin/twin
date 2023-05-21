@@ -1,0 +1,4 @@
+{
+  "appService.defaultWebAppToDeploy": "undefined/subscriptions/e3b66f8e-dd35-4c1a-91e7-7ea7a487e9f3/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/twinApi",
+  "appService.deploySubpath": "."
+}

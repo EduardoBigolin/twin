@@ -1,3 +1,6 @@
+import "dotenv/config";
+
 import { ExpressServer } from "./express/express-server";
 
-new ExpressServer(3000).open();
+const PORT = parseInt(process.env.PORT as string) || 3000;
+new ExpressServer(PORT).open();

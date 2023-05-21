@@ -1,6 +1,6 @@
 import express, { Express } from "express";
-import { Server } from "../common/server";
 import routes from "./express-route";
+import { Server } from "../common/Server";
 
 export class ExpressServer extends Server<Express> {
   private app: Express = express();
