@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "generate": "prisma generate",
-    "build": "tsc --outDir dist && npm run migrate",
+    "build": "tsc --outDir dist",
     "migrate": "npx prisma migrate dev --name init",
     "start": "node dist/infra/http/index.js",
     "dev": "tsx watch ./src/infra/http/index.ts",
